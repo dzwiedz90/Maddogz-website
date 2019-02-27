@@ -1,0 +1,554 @@
+/*###########################################################################
+	OGÓLNE
+*/
+body
+{
+	font-family: 'Stardos Stencil', cursive;
+	background-image: url("background.png");
+	color: ivory;
+}
+
+a
+{
+	text-decoration: none;
+	color: ivory;
+}
+
+
+
+/*###########################################################################
+  Komputer: 1080px
+*/
+@media screen and (max-width: 22000px) 
+{
+#content
+{
+	width: 100%;
+}
+
+#menu
+{
+	width: 100%;
+}
+
+#menusy
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 101%;
+	height: 45px;
+	margin-top: -7px;
+	margin-left: -7px;
+	border-bottom-style: solid;
+	border-bottom-color: ivory;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.tile
+{
+	float: left;
+	width: 14%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+#tresc
+{
+	font-family: 'Stardos Stencil', cursive;
+	font-size: 155px;
+	text-align: center;
+	margin-top: 150px;
+	clear: both;
+	
+}
+
+#glowna_content
+{
+	font-size: 85px;
+}
+
+#content_s
+{
+	display: none;
+}
+
+#glowna_content_s
+{
+	display: none;
+}
+
+#logo
+{
+	font-size: 25px;
+	font-family: 'Stardos Stencil', cursive;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#menu_male
+{
+	display: none;
+}
+/*############KONCERTY###########*/
+table
+{
+	width: 90%;
+	margin: auto;
+	margin-top: 60px;
+	font-size: 25px;
+}
+
+.td_koncerty
+{
+	border-bottom-style: ridge;
+	border-bottom-width:  1px;
+	border-bottom-color: ivory;
+	padding-top: 15px;
+}
+
+#img_s
+{
+	display: none;
+}
+/*############VIDEO###########*/
+
+.video
+{
+	width: 400px;
+	height: 280px;
+}
+
+#video_s
+{
+	display: none;
+}
+
+/*############AUDIO###########*/
+#audio
+{
+	margin-left: 50px;
+	margin-top: 80px;
+	font-size: 25px;
+}
+
+.audio
+{
+	width: 35%;
+	background-color: ivory;
+}
+/*#######################*/
+
+.img
+{
+	float: left;
+	max-width: 300px;
+	margin-bottom: 35px;
+}
+
+#img
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	margin-top: 65px;
+}
+
+/*############RAIDER###########*/
+#button
+{
+	text-align: center; 
+	min-width: 25%; 
+	height: 70px; 
+	font-size: 35px; 
+	color: ivory; 
+	background-color: #242a24; 
+	border-color: #FFFFFF;
+	padding: 5px; 
+	display: inline-block; 
+	margin: 0 auto;
+	font-family: 'Ubuntu Condensed', sans-serif;
+    box-shadow: 0 1px 0 #FFFAFA;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	margin-left: 37%;
+}
+
+#raider
+{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 75px;
+}
+/*############FOTO###########*/
+#foty
+{
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+.foty
+{
+	float: left;
+	margin: 10px;
+	margin-left: 70px;
+	font-size: 23px;
+}
+
+#foty1
+{
+	clear: both;
+}
+/*############SOCIAL###########*/
+#social
+{
+	margin-top: 35px;
+}
+
+#social_small
+{
+	display: none;
+}
+
+.kontakttile
+{
+	width: 50%;
+}
+
+#kontaktfb
+{
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+	font-size:140px;
+}
+
+#kontaktyt
+{
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+	font-size:140px;
+}
+
+#kontaktmenager
+{
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+	font-size: 20px;
+}
+
+#kontaktmail
+{
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+	font-size: 20px;
+}
+
+#kontaktfb:hover
+{
+	background-color: #4668b3;
+	border-radius: 5px;
+}
+
+#kontaktyt:hover
+{
+	background-color: #d94348;
+	border-radius: 5px;
+}
+
+#kontaktmenager:hover
+{
+	background-color: #66CDAA;
+	border-radius: 5px;
+}
+
+#kontaktmail:hover
+{
+	background-color: #d80201;
+	border-radius: 5px;
+}
+
+}
+
+/*####################################################################
+  Komputer: 1400px
+*/
+@media screen and (max-width: 1400px) 
+{
+
+}
+
+
+
+/*####################################################################
+  Tablet pionowo: 750px
+*/
+@media screen and (max-width: 750px) 
+{
+
+}
+
+
+
+/*####################################################################
+  Telefon
+*/
+@media screen and (max-width: 450px) 
+{
+#menu_s
+{
+	margin-top: 5px;
+	display: block;
+}
+
+#menusy_s
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -7px;
+	margin-left: -7px;
+	border-bottom-style: none;
+}
+
+.tile_s
+{
+	float: none;
+	height: 15%;
+	width: 102%;
+	text-align: center;
+	font-size: 300%;
+	font-weight: bold;
+	padding-top: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: ivory;
+}
+
+#tresc
+{
+	display: none;
+}
+
+#content_s
+{
+	display: block;
+	font-size: 60px;
+	margin-top: 40%;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 25px;
+	border-bottom-style: solid;
+	border-bottom-color: ivory;
+	font-family: 'Stardos Stencil', cursive;
+	/*transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg); 
+	-moz-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);*/
+}
+
+#glowna_content
+{
+	display: none;
+}
+
+#glowna_content_s
+{
+	display: block;
+	font-size: 40px;
+}
+
+#menu_male
+{
+	display: inline-block;
+	width: 100%;
+}
+
+#menu_duze
+{
+	display: none;
+}
+
+.button
+{
+	text-align: center; 
+	min-width: 100%; 
+	height: 35px; 
+	font-size: 18px; 
+	color: ivory; 
+	background-color: #242a24; 
+	border-color: #FFFFFF;
+	padding: 5px; 
+	display: inline-block; 
+	margin: 0 auto; 
+	float: right;
+	font-family: 'Ubuntu Condensed', sans-serif;
+    box-shadow: 0 1px 0 #FFFAFA;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	display: block;
+}
+
+/*############KONCERTY###########*/
+#img
+{
+	display: none;
+}
+
+table
+{
+	width: 90%;
+	margin: auto;
+	margin-top: 60px;
+	font-size: 15px;
+}
+
+.img_s
+{
+	max-width: 320px;
+	margin-left: 3%;
+}
+
+#img_s
+{
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 300px;
+	margin-top: 25px;
+	display: block;
+}
+/*############VIDEO###########*/
+
+#video
+{
+	display: none;
+	margin-top: 55px;
+}
+
+#video_s
+{
+	display: block;
+	margin-top: 35px;
+}
+
+.video_s
+{
+	width: 100%;
+	height: 225px;
+	margin-bottom: -1.98%;
+}
+
+/*############AUDIO###########*/
+#audio
+{
+	margin-left: 20px;
+	margin-top: 60px;
+	font-size: 15px;
+}
+
+.audio
+{
+	width: 90%;
+	background-color: ivory;
+}
+
+/*############FOTO###########*/
+#foty
+{
+	text-align: center;
+	width: 100%;
+}
+
+.foty
+{
+	margin-left: -30px;
+	font-size: 23px;
+}
+
+#foty1
+{
+	clear: both;
+}
+
+/*############RAIDER###########*/
+#button
+{
+	text-align: center; 
+	min-width: 25%; 
+	height: 70px; 
+	font-size: 35px; 
+	color: ivory; 
+	background-color: #242a24; 
+	border-color: #FFFFFF;
+	padding: 5px; 
+	display: inline-block; 
+	margin: 0 auto;
+	font-family: 'Ubuntu Condensed', sans-serif;
+    box-shadow: 0 1px 0 #FFFAFA;
+	border-radius: 5px;
+	margin-bottom: 25px;
+	margin-left: 21%;
+	margin-top: -35px;
+}
+
+#raider
+{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 75px;
+}
+
+/*############KONTAKT###########*/
+#social
+{
+	display: none;
+}
+
+#social_small
+{
+	display: block;
+}
+
+.kontakttile
+{
+	font-size: 15px;
+}
+
+#kontaktfb
+{
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+	font-size:140px;
+}
+
+#kontaktyt
+{
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+	font-size:140px;
+}
+
+#kontaktmenager
+{
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+}
+
+#kontaktmail
+{
+	height: 250px;
+	text-align: center;
+	line-height: 250px;
+}
+
+}
